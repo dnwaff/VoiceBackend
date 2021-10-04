@@ -1,0 +1,23 @@
+2021-09-30 02:57:53,725 [http-nio-8080-exec-1] INFO  marytts.main Mary starting up...
+2021-09-30 02:57:53,727 [http-nio-8080-exec-1] INFO  marytts.main Specification version 5.1
+2021-09-30 02:57:53,728 [http-nio-8080-exec-1] INFO  marytts.main Implementation version unknown
+2021-09-30 02:57:53,728 [http-nio-8080-exec-1] INFO  marytts.main Running on a Java 11.0.8 implementation by Oracle Corporation, on a Windows 10 platform (amd64, 10.0)
+2021-09-30 02:57:53,806 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.Synthesis'
+2021-09-30 02:57:53,809 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TextToMaryXML'
+2021-09-30 02:57:53,809 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SableParser'
+2021-09-30 02:57:53,810 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SSMLParser'
+2021-09-30 02:57:53,810 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.APMLParser'
+2021-09-30 02:57:53,810 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.EmotionmlParser'
+2021-09-30 02:57:53,811 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JTokeniser'
+2021-09-30 02:57:53,811 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.DummyTokens2Words'
+2021-09-30 02:57:53,811 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.ProsodyGeneric'
+2021-09-30 02:57:53,813 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PronunciationModel'
+2021-09-30 02:57:53,814 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TargetFeatureLister'
+2021-09-30 02:57:53,814 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HalfPhoneTargetFeatureLister'
+2021-09-30 02:57:53,814 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.AcousticModeller'
+2021-09-30 02:57:53,815 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedAcoustparamsExtractor'
+2021-09-30 02:57:53,815 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedDurationsExtractor'
+2021-09-30 02:57:53,815 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HTSEngine'
+2021-09-30 02:57:53,816 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PraatTextGridGenerator'
+2021-09-30 02:57:53,817 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.JTokeniser'
+2021-09-30 02:57:53,817 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.FreeTTSTokenToWords'
