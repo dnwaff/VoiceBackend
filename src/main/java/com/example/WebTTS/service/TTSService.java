@@ -20,7 +20,7 @@ public class TTSService {
 
         boolean isWindows = System.getProperty("os.name").toLowerCase().startsWith("windows");
         String cmdText = String.format("mimic -t \"%s\" -o output.wav", text);
-        String cmdFile = String.format("mimic -f /app/output.txt -o newshit.wav");
+        String cmdFile = String.format("mimic -f /app/output.txt -o output.wav");
         try {
             this.textToFile(text);
             System.out.println(cmdFile);
