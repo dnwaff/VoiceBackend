@@ -36,9 +36,10 @@ public class WebTTSController {
             produces = MediaType.APPLICATION_OCTET_STREAM_VALUE
             )
     public byte[] Voice(HttpServletResponse response) throws IOException {
-        ttsService.textToWav("test 1 2 3");
-        InputStream in = new FileInputStream("/app/output.wav");
         response.setHeader("Content-Disposition", "attachment; filename=out.wav");
+        InputStream in = ttsService.textToWav("test 1 2 3");
+        if (in == null)
+            return null;
         return IOUtils.toByteArray(in);
     }
 }
