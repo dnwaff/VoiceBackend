@@ -36,7 +36,7 @@ public class TTSService {
         String filename = String.format("%s.wav",UUID.randomUUID().toString().substring(0,8));
 
         String cmdText = String.format("mimic -t \"%s\" -o output.wav", text);
-        String cmdFile = String.format("mimic -f %s -o %s", txtFilePath, filename);
+        String cmdFile = String.format("mimic -f %s -o %s -voice slt", txtFilePath, filename);
         try {
             this.textToFile(text);
             if (isWindows){
